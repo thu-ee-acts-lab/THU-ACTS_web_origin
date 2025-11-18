@@ -4,12 +4,14 @@ title: ""
 date: 2025-04-21
 type: landing
 
+banner:
+  title: "THU-ACTS"
 
 sections:
   - block: slider
     content:
       slides:
-        - title: 最新工作被VLSI2025接收
+        - title: Our Latest Work Has Been Accepted by VLSI 2025!
           content: |
              <p style = "font-size:1em; color:white">  A 94Hz Inference and 7.4mJ/epoch Fine-tune Edge SoC for Diffusion-based <br> Robot Manipulation  with 
              Speculation and Disturbance Enhancement </p>
@@ -27,9 +29,9 @@ sections:
           link:
             icon: 
             icon_pack: 
-            text: 详细情况
+            text: Learn More
             url: ../post/2025-vlsi/  
-        - title: 最新工作被TCAD 2025接收
+        - title: Our Latest Work Has Been Accepted by TCAD 2025!
           content: 
             <p style = "font-size:1em; color:white"> SASDenSebLE:A Compact Vision Transformer Inference Architecture 
              <br>with Saturation-Approximate Softmax Dataflow Enabling Sequence-<br>Parallelism Boosted Layer-Fusion Execution
@@ -46,9 +48,9 @@ sections:
           link:
             icon: 
             icon_pack: 
-            text: 了解更多
+            text: Learn More
             url: ../post/2025-tcad/
-        - title: 最新工作被MLSys 2025接收
+        - title: Our Latest Work Has Been Accepted by MLSys 2025!
           content: 
            <p style = "font-size:1em; color:white"> HyC-LoRA:Memory Efficient LoRA Fine-tuning 
             <br>with Hybrid Activation Compressions
@@ -66,7 +68,7 @@ sections:
           link:
             icon: 
             icon_pack: 
-            text: 了解更多
+            text: Learn More
             url: ..post/2025-mlsys/
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
@@ -84,11 +86,9 @@ sections:
         - title: 
             <br>
             <br>     
-            清华大学
-            <br>
-            先进计算技术与系统
-            <br>
-            实验室
+            Tsinghua University
+            <br> 
+            Advanced Computing Technology & Systems (ACTS) Lab
             <br>
             <br>
           content: 
