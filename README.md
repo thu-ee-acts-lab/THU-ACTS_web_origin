@@ -35,7 +35,7 @@
 
 ##  4. 构建静态网页并更新至实验室网站github仓库
 
-    · 在保存相关修改后，在项目根目录下运行./deploy.sh (注意需要科学上网)
+  · 在保存相关修改后，在项目根目录下运行./deploy.sh (注意网络需要能够连接到github)
     
-    · 等待若干秒后，可直接在https://shuxs23.github.io/THU-ACTS.github.io/网页中看到  （后续将移植到实验室github账号下）
+  · 等待若干秒后，可直接在https://shuxs23.github.io/THU-ACTS.github.io/网页中看到  （后续将移植到实验室github账号下）
 
