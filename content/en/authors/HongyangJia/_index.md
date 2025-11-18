@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 贾弘洋
+title: Hongyang Jia
 
 # Full Name (for SEO)
 first_name: 弘洋
@@ -10,37 +10,37 @@ last_name: 贾
 superuser: true
 
 # Role/position
-role: 课题组导师 
+role: Principal Investigator
 
 # Organizations/Affiliations
 organizations:
-  - name: 清华大学
+  - name: Department of Electronic Engineering,  Tsinghua University
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
 
 interests:
-  -  先进计算概念芯片
-  -  灵活AI架构与系统
-  -  新兴应用计算平台
+  -  Advanced Computing Chips
+  -  Flexible AI Architectures and Systems
+  -  Emerging Application-Oriented Computing Platforms
 
 education:
   courses:
-    - course: 哲学博士学位
-      institution: 美国普林斯顿大学电子与计算机工程
+    - course: Ph.D. in Electrical and Computer Engineering
+      institution: Princeton University, USA
       year: 2014.9-2021.9
-    - course: 经济学学士学位
-      institution: 清华大学经济学
+    - course: B.Ec.in Economics
+      institution: Tsinghua University
       year:  2011.9-2014.7       
-    - course: 工学学士学位
-      institution: 清华大学电子工程系
+    - course: B.E. in Electronic Engineering
+      institution: Tsinghua University
       year:  2010.8-2014.7
 
   
 work:
   - position: 
-    company_name: 电子工程系 | 清华大学 
+    company_name: Department of Electronic Engineering | Tsinghua University
     company_url: ''
     company_logo: ''
     date_start: 2022-08-01
@@ -48,14 +48,14 @@ work:
     
 
   - position: 
-    company_name: 研究院 | 美国英伟达公司 
+    company_name: NVIDIA Research | NVIDIA Corporation, USA
     company_url: ''
     company_logo: ''
     date_start: 2021-11-01
     date_end: 2022-06-01
 
   - position: 
-    company_name: 电子与计算机工程系 | 美国普林斯顿大学
+    company_name: Department of Electrical and Computer Engineering | Princeton University, USA
     company_url: ''
     company_logo: ''
     date_start: 2021-07-01
@@ -95,6 +95,9 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 课题组导师 
+  - Principal Investigator
 ---
-清华大学电子工程系教研系列助理教授，博士生导师。于2014年在清华大学微纳电子学系获得学士学位，并于2016年和2021年在美国普林斯顿大学电子与计算机工程系获得硕士与博士学位。随后在普林斯顿大学和英伟达研究院担任博士后研究员，并于2022年7月全职加入清华大学电子工程系任助理教授。研究重点为新兴计算技术及其与大规模集成电路和体系架构的融合优化，涵盖近似计算、存算一体等方向。在ISSCC、JSSC、VLSI、Hot Chips等集成电路领域顶级会议与期刊上发表多篇论文。担任ICCAD、JSSC等多个IEEE系列会议、期刊技术委员会委员和审稿人。
+Dr. Hongyang Jia is an Associate Professor and Ph.D. Advisor in the Department of Electronic Engineering at Tsinghua University.
+He received his B.S. degree in Microelectronics from Tsinghua University in 2014, and his M.S. and Ph.D. degrees in Electrical and Computer Engineering from Princeton University in 2016 and 2021, respectively. He then worked as a Postdoctoral Research Associate at Princeton University and NVIDIA Research. In July 2022, he joined the Department of Electronic Engineering at Tsinghua University as a full-time Assistant Professor.
+
+His research focuses on emerging computing technologies and their co-optimization with large-scale integrated circuits and computing architectures. His work spans approximate computing, in-/near-memory computing, and next-generation domain-specific accelerators. He has published multiple papers in top-tier conferences and journals such as ISSCC, JSSC, VLSI, and Hot Chips, and serves as a technical committee member and reviewer for various IEEE conferences and journals, including ICCAD and JSSC.

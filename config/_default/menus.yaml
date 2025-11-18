@@ -4,27 +4,30 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-
   - name: Home
     url: /
+    weight: 10
+
+  - name: Themes
+    url: field/
     weight: 20
 
-  - name: Field
-    url: /field/
-    weight: 30
+  - name: Project
+    url: project/
+    weight: 20   
 
   - name: News
-    url: /post/
+    url: post/
     weight: 40
 
   - name: People
-    url: /people/
+    url: people/
     weight: 50
 
   - name: Publications
-    url: /publication/
+    url: publication/
     weight: 60
 
   - name: Contact
-    url: /contact/
+    url: contact/
     weight: 70

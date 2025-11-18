@@ -13,7 +13,7 @@
 
 ##  1. 环境准备
 
- Hugo Extended; go ; git ;
+ Hugo Extended ; go ; git ;
 
 ##  2. 网站本地预览
 

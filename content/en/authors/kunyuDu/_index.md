@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 杜坤玉
+title: Kunyu Du
 
 # Full Name (for SEO)
 first_name: 坤玉
@@ -10,11 +10,11 @@ last_name: 杜
 superuser: true
 
 # Role/position
-role: 工程师 
+role: Engineer 
 
 # Organizations/Affiliations
 organizations:
-  - name: 清华大学
+  - name: Department of Electronic Engineering,  Tsinghua University
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
@@ -79,5 +79,5 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 工程师
+  - Engineer
 ---

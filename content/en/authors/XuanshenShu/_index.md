@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 疏炫深
+title: Xuanshen Shu
 
 # Full Name (for SEO)
 first_name: 炫深
@@ -14,7 +14,7 @@ role: Students
 
 # Organizations/Affiliations
 organizations:
-  - name: 清华大学电子工程系
+  - name: Department of Electronic Engineering,  Tsinghua University
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
@@ -68,7 +68,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 研究生
+  - Postgraduate
 --- 
 出生于2000年9月，本科毕业于中山大学，于2023年入学。
 

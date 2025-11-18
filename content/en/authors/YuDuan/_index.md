@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 段裕
+title: Yu Duan
 
 # Full Name (for SEO)
 first_name: 裕
@@ -14,7 +14,7 @@ role: Students
 
 # Organizations/Affiliations
 organizations:
-  - name: 清华大学电子工程系
+  - name: Department of Electronic Engineering,  Tsinghua University
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
@@ -66,7 +66,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 研究生
+  - Postgraduate
 --- 
 出生于2002年，本科毕业于华中科技大学，2024年入学。
 

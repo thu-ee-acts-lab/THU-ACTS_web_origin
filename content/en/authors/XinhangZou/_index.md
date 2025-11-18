@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 邹昕航
+title: Xinhang Zou
 
 # Full Name (for SEO)
 first_name: 昕航
@@ -14,7 +14,7 @@ role: Students
 
 # Organizations/Affiliations
 organizations:
-  - name: 清华大学电子工程系
+  - name: Department of Electronic Engineering,  Tsinghua University
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
@@ -67,7 +67,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 研究生
+  - Postgraduate
 --- 
 出生于2001年，本科毕业于清华大学，2023年入学。
 

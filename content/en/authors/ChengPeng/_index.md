@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 彭程
+title: Cheng Peng
 
 # Full Name (for SEO)
 first_name: 程
@@ -14,7 +14,7 @@ role: Students
 
 # Organizations/Affiliations
 organizations:
-  - name: 清华大学电子工程系
+  - name: Department of Electronic Engineering,  Tsinghua University
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
@@ -69,7 +69,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 研究生
+  - Postgraduate
 --- 
 2024年入学，目前研究内容为高能效数据压缩加速器设计与架构优化。针对高性能计算系统中日益突出的内存带宽限制与系统散热压力，分析了数据压缩技术对于解决这一问题的潜力，并系统性地探索了数据压缩在架构级与电路级的设计空间。
 

@@ -24,9 +24,8 @@ sections:
               # or delete the image section to remove it
               filename: VLSI2025.jpg  
               filters:
-                brightness: 0.6
+                brightness: 0.72
             position: center
-            color: '#666'
           link:
             icon: 
             icon_pack: 
@@ -43,9 +42,8 @@ sections:
               # or delete the image section to remove it
               filename: TCAD2025.jpg  
               filters:
-                brightness: 0.6
+                brightness: 0.72
             position: center
-            color: '#555'
           link:
             icon: 
             icon_pack: 
@@ -62,10 +60,8 @@ sections:
               # or delete the image section to remove it
               filename: MLSys2025_slide.jpg
               filters:
-                brightness: 0.6
-
+                brightness: 0.72
             position: center
-            color: '#333'
           link:
             icon: 
             icon_pack: 
@@ -81,44 +77,80 @@ sections:
       # Duration of transition between slides (in ms)
       interval: 1500
 
-  - block: slider
-    content:
-      slides:
-        - title: 
-            <br>
-            <br>     
-            清华大学
-            <br>
-            先进计算技术与系统
-            <br>
-            实验室
-            <br>
-            <br>
-          content: 
+  # - block: slider
+  #   content:
+  #     slides:
+  #       - title: 
+  #           <br>
+  #           <br>     
+  #           清华大学
+  #           <br>
+  #           先进计算技术与系统
+  #           <br>
+  #           实验室
+  #           <br>
+  #           <br>
+  #         content: 
           
-          align: left
-          background:
-            image:
-              # Specify an image from `assets/media/`
-              # or delete the image section to remove it
-              filename: chip.jpg  
-              filters:
-                brightness: 0.65
-            position: center
-            color: '#bbbbbbff'
-          # link:
-          #   icon: 
-          #   icon_pack: 
-          #   text: 详细情况
-          #   url: ../post/2025-vlsi/  
+  #         align: left
+  #         background:
+  #           image:
+  #             # Specify an image from `assets/media/`
+  #             # or delete the image section to remove it
+  #             filename: chip.jpg  
+  #             filters:
+  #               brightness: 0.65
+  #           position: center
+  #           color: '#bbbbbbff'
+  #         # link:
+  #         #   icon: 
+  #         #   icon_pack: 
+  #         #   text: 详细情况
+  #         #   url: ../post/2025-vlsi/  
 
+  #   design:
+  #     # Slide height is automatic unless you force a specific height (e.g. '400px')
+  #     slide_height: '500px'
+  #     # Make the slides full screen within the browser window?
+  #     is_fullscreen: false
+
+  # - block: hero
+  #   content:
+  #     text: |
+  #         清华大学先进计算技术与系统实验室（THU ACTS LAB）建立于2022年，聚焦于具身智能系统中的先进计算基础研究，面向机器人等具身智能应用中多任务集成、实时交互、高能效计算的挑战，我们突破传统专用加速器“还原式”的设计思路，围绕“软件解构-硬件简并-优化迭代”的方法，在系统层面协同考量新兴电路技术、体系架构简并策略与高效应用算法，探索从底层电路到系统架构的全栈式创新路径，建领域通用计算芯片与系统的设计范式。
+
+
+
+  - block: markdown
     design:
-      # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: '500px'
-      # Make the slides full screen within the browser window?
-      is_fullscreen: false
+      columns: "1"
+      background:
+              color: "white"
+    content:
+      text: |
+          <div style="display: flex; align-items: flex-start; gap: 30px;">
 
+          <div style="flex: 1.2;">
 
+          <h1 style="font-size: 2.8rem; font-weight: bold; margin-bottom: 20px;">
+          清华大学先进计算技术与系统实验室
+          </h1>
+
+          <p style="font-size: 1.1rem; line-height: 1.9; text-align: justify;">
+
+          清华大学先进计算技术与系统实验室（THU ACTS LAB）建立于 2022 年，聚焦具身智能系统中的先进计算基础研究，面向机器人等具身智能应用中多任务集成、实时交互、高能效计算的挑战。
+          
+          我们突破传统专用加速器“还原式”的设计思路，围绕“软件解构—硬件简并—优化迭代”的方法，在系统层面协同考量新兴电路技术、体系架构简并策略与高效应用算法，探索从底层电路到系统架构的全栈式创新路径，建立领域通用计算芯片与系统的设计范式。
+          </p>
+          </div>
+          
+          ![lab](../assets/media/LabIcon.jpg)
+          
+
+          </div>
+          </div>
+
+           
 
   # - block: hero
   #   content:
@@ -150,27 +182,7 @@ sections:
 
 
 
-  - block: hero
-    content:
-      image:
-        filename: welcome.jpg
-      text: |
-        <p> &nbsp &nbsp &nbsp &nbsp 清华大学先进计算技术与系统实验室（THU ACTS LAB）建立于2022年，聚焦于具身智能系统中的先进计算基础研究，面向机器人等具身智能应用中多任务集成、实时交互、高能效计算的挑战，我们突破传统专用加速器“还原式”的设计思路，围绕“软件解构-硬件简并-优化迭代”的方法，在系统层面协同考量新兴电路技术、体系架构简并策略与高效应用算法，探索从底层电路到系统架构的全栈式创新路径，建领域通用计算芯片与系统的设计范式。</p>
 
-
-
-  - block: about.avatar
-    id: about
-    content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: HongyangJia
-      # Override your profile text from `authors/admin/_index.md`?
-      text: 
- 
-    design:
-      view:
-
-    
 
   - block: collection
     id: posts
@@ -178,8 +190,6 @@ sections:
       title: 研究领域
             <br>
             <br>
-
-
       subtitle: ''
       text: 
       # Choose how many pages you would like to display (0 = all pages)
@@ -209,11 +219,13 @@ sections:
       view: showcase
       # Choose single or dual column layout
       columns: '1'
+      background:
+          color: '#f4f4f4ff'
 
 
  
   - block: collection
-    id: posts
+    id: post
     content:
       title: 以往工作
       subtitle: ''
@@ -242,7 +254,7 @@ sections:
       
     design:
       # Choose a listing view
-      view: showcase
+      view: compact
       # Choose single or dual column layout
       columns: '1'
 

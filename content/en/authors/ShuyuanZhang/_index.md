@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 张书源
+title: Shuyuan Zhang
 
 # Full Name (for SEO)
 first_name: 书源
@@ -14,7 +14,7 @@ role: Students
 
 # Organizations/Affiliations
 organizations:
-  - name: 清华大学电子工程系
+  - name: Department of Electronic Engineering,  Tsinghua University
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
@@ -69,7 +69,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 研究生
+  - Postgraduate
 --- 
 于2023年在清华大学电子工程系电子系毕业，并获得电子与信息科学技术专业学士学位。目前为清华大学电子工程系二年级博士生，跟随贾弘洋老师攻读博士学位。
 

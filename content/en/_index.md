@@ -11,7 +11,8 @@ sections:
   - block: slider
     content:
       slides:
-        - title: Our Latest Work Has Been Accepted by VLSI 2025!
+        - title: 
+               Our Latest Work Has Been  Accepted  <br>   by VLSI 2025!
           content: |
              <p style = "font-size:1em; color:white">  A 94Hz Inference and 7.4mJ/epoch Fine-tune Edge SoC for Diffusion-based <br> Robot Manipulation  with 
              Speculation and Disturbance Enhancement </p>
@@ -31,7 +32,7 @@ sections:
             icon_pack: 
             text: Learn More
             url: ../post/2025-vlsi/  
-        - title: Our Latest Work Has Been Accepted by TCAD 2025!
+        - title: Our Latest Work Has Been Accepted <br>  by TCAD 2025!
           content: 
             <p style = "font-size:1em; color:white"> SASDenSebLE:A Compact Vision Transformer Inference Architecture 
              <br>with Saturation-Approximate Softmax Dataflow Enabling Sequence-<br>Parallelism Boosted Layer-Fusion Execution
@@ -50,7 +51,7 @@ sections:
             icon_pack: 
             text: Learn More
             url: ../post/2025-tcad/
-        - title: Our Latest Work Has Been Accepted by MLSys 2025!
+        - title: Our Latest Work Has Been Accepted by <br>  MLSys 2025!
           content: 
            <p style = "font-size:1em; color:white"> HyC-LoRA:Memory Efficient LoRA Fine-tuning 
             <br>with Hybrid Activation Compressions
@@ -79,41 +80,6 @@ sections:
       loop: true
       # Duration of transition between slides (in ms)
       interval: 1500
-
-  - block: slider
-    content:
-      slides:
-        - title: 
-            <br>
-            <br>     
-            Tsinghua University
-            <br> 
-            Advanced Computing Technology & Systems (ACTS) Lab
-            <br>
-            <br>
-          content: 
-          
-          align: left
-          background:
-            image:
-              # Specify an image from `assets/media/`
-              # or delete the image section to remove it
-              filename: chip.jpg  
-              filters:
-                brightness: 0.65
-            position: center
-            color: '#bbbbbbff'
-          # link:
-          #   icon: 
-          #   icon_pack: 
-          #   text: 详细情况
-          #   url: ../post/2025-vlsi/  
-
-    design:
-      # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: '500px'
-      # Make the slides full screen within the browser window?
-      is_fullscreen: false
 
 
 
@@ -146,32 +112,40 @@ sections:
   #     #   text_color_light: true    
 
 
-
-  - block: hero
-    content:
-      image:
-        filename: welcome.jpg
-      text: |
-        <p> &nbsp &nbsp &nbsp &nbsp Our research focuses on foundational computing technologies for embodied intelligence systems. Facing the challenges of multi-task integration, real-time interaction, and energy-efficient computation in embodied applications such as robotics, we rethink traditional “reconstruction-based’’ accelerator design paradigms.
-
-        Following a software-deconstruction → hardware-simplification → iterative-optimization methodology, we pursue full-stack innovation—from emerging circuit techniques and architecture simplification strategies to efficient application-level algorithms.
-
-        Our goal is to explore new design paradigms and deliver domain-general computing chips and systems that bridge circuit-level innovations with system-level architectural advances.</p>
-
-
-
-  - block: about.avatar
-    id: about
-    content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: HongyangJia
-      # Override your profile text from `authors/admin/_index.md`?
-      text: 
- 
+  - block: markdown
     design:
-      view:
+      columns: "1"
+      background:
+              color: "white"
+    content:
+      text: |
+          <div style="display: flex; align-items: flex-start; gap: 00px;">
 
-    
+          <div style="flex: 1.2;">
+
+          <h1 style="font-size: 1.2 rem; font-weight: bold; margin-bottom: 10px;">
+          Tsinghua University <br>
+          Advanced Computing Technology & Systems (ACTS) Lab
+          </h1>
+
+          <p style="font-size: 1.1rem; line-height: 1.9; text-align: justify;">
+
+          Our research focuses on foundational computing technologies for embodied intelligence systems. Facing the challenges of multi-task integration, real-time interaction, and energy-efficient computation in embodied applications such as robotics, we rethink traditional “reconstruction-based” accelerator design paradigms.
+
+          Following a software-deconstruction → hardware-simplification → iterative-optimization methodology, we pursue full-stack innovation—from emerging circuit techniques and architecture simplification strategies to efficient application-level algorithms.
+
+          Our goal is to explore new design paradigms and deliver domain-general computing chips and systems that bridge circuit-level innovations with system-level architectural advances.
+          </p>
+          
+          </div>
+            
+          ![lab](../assets/media/LabIcon.jpg)
+
+          
+          </div>
+
+
+
 
   - block: collection
     id: posts
@@ -179,8 +153,6 @@ sections:
       title: Research Directions
             <br>
             <br>
-
-
       subtitle: ''
       text: 
       # Choose how many pages you would like to display (0 = all pages)
@@ -216,7 +188,7 @@ sections:
   - block: collection
     id: posts
     content:
-      title: Past Research Work
+      title: Previous Work
       subtitle: ''
       text: 
       # Choose how many pages you would like to display (0 = all pages)
@@ -243,7 +215,7 @@ sections:
       
     design:
       # Choose a listing view
-      view: showcase
+      view: compact
       # Choose single or dual column layout
       columns: '1'
 
@@ -267,10 +239,10 @@ sections:
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
-        - 课题组导师 
-        - 研究生
-        - 本科生
-        - 工程师
+        - Principal Investigator 
+        - Postgraduate
+        - Undergraduate
+        - Engineer
       sort_by: Params.last_name
       sort_ascending: true
     design:
