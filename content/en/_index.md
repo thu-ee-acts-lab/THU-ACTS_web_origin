@@ -152,7 +152,11 @@ sections:
       image:
         filename: welcome.jpg
       text: |
-        <p> &nbsp &nbsp &nbsp &nbsp 清华大学先进计算技术与系统实验室（THU ACTS LAB）建立于2022年，聚焦于具身智能系统中的先进计算基础研究，面向机器人等具身智能应用中多任务集成、实时交互、高能效计算的挑战，我们突破传统专用加速器“还原式”的设计思路，围绕“软件解构-硬件简并-优化迭代”的方法，在系统层面协同考量新兴电路技术、体系架构简并策略与高效应用算法，探索从底层电路到系统架构的全栈式创新路径，建领域通用计算芯片与系统的设计范式。</p>
+        <p> &nbsp &nbsp &nbsp &nbsp Our research focuses on foundational computing technologies for embodied intelligence systems. Facing the challenges of multi-task integration, real-time interaction, and energy-efficient computation in embodied applications such as robotics, we rethink traditional “reconstruction-based’’ accelerator design paradigms.
+
+        Following a software-deconstruction → hardware-simplification → iterative-optimization methodology, we pursue full-stack innovation—from emerging circuit techniques and architecture simplification strategies to efficient application-level algorithms.
+
+        Our goal is to explore new design paradigms and deliver domain-general computing chips and systems that bridge circuit-level innovations with system-level architectural advances.</p>
 
 
 
@@ -172,7 +176,7 @@ sections:
   - block: collection
     id: posts
     content:
-      title: 研究领域
+      title: Research Directions
             <br>
             <br>
 
@@ -212,7 +216,7 @@ sections:
   - block: collection
     id: posts
     content:
-      title: 以往工作
+      title: Past Research Work
       subtitle: ''
       text: 
       # Choose how many pages you would like to display (0 = all pages)
